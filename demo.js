@@ -5,7 +5,7 @@
  * See https://github.com/asirihewage/dall-e-intl
  */
 
-import ChatGPTIntl from './index.js';
+import DallEIntl from './index.js';
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -22,7 +22,7 @@ const opts = {
 };
 
 
-ChatGPTIntl(text, DALL_E_API_KEY, opts, lang).then((res) => {
+DallEIntl(text, DALL_E_API_KEY, opts, lang).then((res) => {
     console.log("Demo result", res);
 }).catch((er)=> {
     console.log("Demo error", er);

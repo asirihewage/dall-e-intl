@@ -8,7 +8,7 @@ import { Translator } from './translator.js';
 import { isSupported } from './languages.js';
 import axios from "axios";
 
-const ChatGPTIntl = async (text, DALL_E_API_KEY, opts, lang) => {
+const DallEIntl = async (text, DALL_E_API_KEY, opts, lang) => {
     opts = JSON.parse(JSON.stringify(opts));
     let errors = [
         'The language «[lang]» is not supported',
@@ -78,4 +78,4 @@ const ChatGPTIntl = async (text, DALL_E_API_KEY, opts, lang) => {
 
 }
 
-export default ChatGPTIntl;
+export default DallEIntl;
