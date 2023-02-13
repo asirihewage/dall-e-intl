@@ -1,0 +1,45 @@
+{
+  "name": "dall-e-intl",
+  "version": "0.0.1",
+  "description": "Enhanced Internationalization module for DALL·E - NodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asirihewage/dall-e-intl.git"
+  },
+  "keywords": [
+    "image generation",
+    "ai art",
+    "ai image",
+    "digital art",
+    "dall-e",
+    "DALL.E",
+    "Internationalization",
+    "NodeJS",
+    "Wrapper"
+  ],
+  "author": {
+    "name": "Asiri Hewage",
+    "email": "asiri@w3genesis.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asirihewage/dall-e-intl/issues"
+  },
+  "homepage": "https://github.com/asirihewage/dall-e-intl",
+  "dependencies": {
+    "axios": "^1.3.2",
+    "configstore": "4.0.0",
+    "got": "^12.5.3",
+    "proxy-check": "1.0.8",
+    "tunnel": "0.0.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "demo": "nodemon demo.js"
+  },
+  "type": "module"
+}
