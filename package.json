@@ -1,6 +1,6 @@
 {
   "name": "dall-e-intl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enhanced Internationalization module for DALL·E - NodeJS",
   "main": "index.js",
   "repository": {
